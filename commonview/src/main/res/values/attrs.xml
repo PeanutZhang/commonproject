@@ -70,4 +70,13 @@
             <enum name="bottom" value="3"/>
         </attr>
     </declare-styleable>
+    
+    <declare-styleable name="ColorLineView">
+        <attr name="lineHeiht" format="dimension"/>
+        <attr name="itemLength" format="dimension"/>
+        <attr name="itemSpaceing" format="dimension"/>
+        <attr name="firstColor" format="color"/>
+        <attr name="secondColor" format="color"/>
+        <attr name="leanDegree" format="float"/>
+    </declare-styleable>
 </resources>
