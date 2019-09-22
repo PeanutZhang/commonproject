@@ -19,51 +19,11 @@ public class SkuBean {
      * price : 179.00
      */
 
-    private String type;
-    private int id;
-    private int optional;
-    private String price;
-    private List<ValuesBean> values;
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getOptional() {
-        return optional;
-    }
-
-    public void setOptional(int optional) {
-        this.optional = optional;
-    }
-
-    public String getPrice() {
-        return price;
-    }
-
-    public void setPrice(String price) {
-        this.price = price;
-    }
-
-    public List<ValuesBean> getValues() {
-        return values;
-    }
-
-    public void setValues(List<ValuesBean> values) {
-        this.values = values;
-    }
+    public String type;
+    public int id;
+    public int optional;
+    public String price;
+    public List<ValuesBean> values;
 
     public static class ValuesBean {
         /**
@@ -72,32 +32,8 @@ public class SkuBean {
          * key : color
          */
 
-        private String name;
-        private String key;
-        private List<String> value;
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public String getKey() {
-            return key;
-        }
-
-        public void setKey(String key) {
-            this.key = key;
-        }
-
-        public List<String> getValue() {
-            return value;
-        }
-
-        public void setValue(List<String> value) {
-            this.value = value;
-        }
+        public String name;
+        public String key;
+        public List<String> value;
     }
 }
