@@ -1,5 +1,6 @@
 package com.nanyibang.commonproect;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,6 +18,12 @@ public class MainActivity extends AppCompatActivity {
            @Override
            public void onItemClick(XBanner banner, Object model, View view, int position) {
 
+           }
+       });
+       findViewById(R.id.jump).setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               startActivity(new Intent(MainActivity.this,SecondeActivity.class));
            }
        });
     }
