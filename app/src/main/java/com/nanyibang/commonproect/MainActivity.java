@@ -26,5 +26,11 @@ public class MainActivity extends AppCompatActivity {
                startActivity(new Intent(MainActivity.this,SecondeActivity.class));
            }
        });
+        findViewById(R.id.jumpTo).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,CoundownListActivity.class));
+            }
+        });
     }
 }
